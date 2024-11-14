@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import Logo from '../../../assets/logo-shop.svg'
+import User from '../../../assets/logo-shop.svg'
 import s from '../header-button/header-button.module.css'
 
 import React, { useState } from "react";
