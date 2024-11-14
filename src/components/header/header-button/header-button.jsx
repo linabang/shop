@@ -11,13 +11,14 @@ const HeaderButton = () => {
   };
   return (
     <div>
-      <button className={s.button} onClick={handleClick}>
+      <div onClick={handleClick}>
       {isIcon ? (
-        <img className={s.button__img}url={User} ></img>
+        <img className={s.button__img} url={User} ></img>
       ) : (
-        "Войти"
+        <button className={s.button}>Войти</button>
+        
       )}
-      </button>
+      </div>
     </div>
   )
 }
