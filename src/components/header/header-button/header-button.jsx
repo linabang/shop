@@ -16,7 +16,7 @@ const HeaderButton = () => {
        <button className={s.button}>Войти</button>
       ) : (
         
-         <img className={s.button__img} url={User} ></img>
+         <img className={s.button__img} src={User} ></img>
       )}
       </div>
     </div>
