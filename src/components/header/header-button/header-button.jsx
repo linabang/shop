@@ -12,7 +12,7 @@ const HeaderButton = () => {
   return (
     <div>
       <div onClick={handleClick}>
-      {isIcon ? (
+      {!isIcon ? (
        <button className={s.button}>Войти</button>
       ) : (
         
