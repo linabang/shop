@@ -13,7 +13,7 @@ const HeaderButton = () => {
     <div>
       <button className={s.button} onClick={handleClick}>
       {isIcon ? (
-        <img url={User} ></img>
+        <img className={s.button__img}url={User} ></img>
       ) : (
         "Войти"
       )}
