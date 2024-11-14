@@ -1,0 +1,14 @@
+.text__block{
+  display: flex;
+  column-gap: 32px;
+}
+.text__block a {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+@media screen and (max-width:855px) {
+  .text__block{
+    display: none;
+  }
+}
